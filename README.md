@@ -1,0 +1,3 @@
+This repository contains a simple Julia function with a common error: a missing case in a conditional statement. The function is intended to return the square of x if x is positive, and the negative of the square of x if x is negative.  However, it does not handle the case where x is 0. This leads to unexpected behavior when the function is called with x = 0.
+
+The bug is demonstrated in the `bug.jl` file. The corrected version of the function is provided in `bugSolution.jl`.
